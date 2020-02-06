@@ -34,9 +34,7 @@
       <S-Email-Form :buttonClasses="['bg-purple-300', 'text-purple-900', 'hover:bg-purple-400']"/>
     </div>
 
-    <div class="m-4 max-w-2xl">
-      <S-Cookies-Banner :clearOnReload="true"/>
-    </div>
+    <S-Cookies-Banner :clearOnReload="true"/>
 
 
   </div>
